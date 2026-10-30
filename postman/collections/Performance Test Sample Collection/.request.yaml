@@ -1,0 +1,8 @@
+$kind: http-request
+name: ""
+url: localhost:8080/run
+method: POST
+body:
+  type: json
+  content: ""
+order: 1000

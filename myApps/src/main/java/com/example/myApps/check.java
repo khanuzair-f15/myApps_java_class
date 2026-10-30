@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class check {
     @RequestMapping("/run")
     public static void main() {
-
+        System.out.println("GG its working!");
     }
 }

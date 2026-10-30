@@ -8,6 +8,7 @@ public class MyAppsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MyAppsApplication.class, args);
+        System.out.println("GG its");
     }
 
 }
