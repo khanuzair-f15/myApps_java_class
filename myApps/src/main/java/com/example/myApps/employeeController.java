@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 @RestController
 public class employeeController {
-
     ArrayList<employeeModel> al = new ArrayList<>();
 
     @GetMapping("/get")
@@ -23,5 +22,4 @@ public class employeeController {
     public void delEmployee(@PathVariable int empid) {
         al.removeIf(emp -> emp.getEmployeeID() == empid);
     }
-
 }
