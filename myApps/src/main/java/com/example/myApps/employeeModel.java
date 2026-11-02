@@ -5,7 +5,9 @@ public class employeeModel {
     private int employeeID;
     private long employeeSalary;
 
-    employeeModel(String employeeName, int employeeID, long employeeSalary) {
+    public employeeModel() {}
+
+    public employeeModel(String employeeName, int employeeID, long employeeSalary) {
         this.employeeID = employeeID;
         this.employeeSalary = employeeSalary;
         this.employeeName = employeeName;
